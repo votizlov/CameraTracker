@@ -36,7 +36,7 @@ namespace GoogleARCoreInternal
     {
         private NativeSession m_NativeSession;
 
-        public CameraApi(NativeSession nativeSession)
+        internal CameraApi(NativeSession nativeSession)
         {
             m_NativeSession = nativeSession;
         }
