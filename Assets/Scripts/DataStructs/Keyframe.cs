@@ -1,29 +1,33 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace DataStructs
 {
+    
+    [Serializable]
     public struct Keyframe
     {
 
-        public Vector3 Position;
-        public Quaternion Rotation;
-        public int FrameIndex;
+        [FormerlySerializedAs("Position")] public Vector3 position;
+        [FormerlySerializedAs("Rotation")] public Quaternion rotation;
+        [FormerlySerializedAs("FrameIndex")] public int frameIndex;
         
         
         
         
         internal Keyframe(Vector3 position, Quaternion rotation, int frameIndex)
         {
-            Position = position;
-            Rotation = rotation;
-            FrameIndex = frameIndex;
+            this.position = position;
+            this.rotation = rotation;
+            this.frameIndex = frameIndex;
         }
 
-        internal void SetPosition(Vector3 position) => Position = position;
+        internal void SetPosition(Vector3 position) => this.position = position;
         
-        internal void SetRotation(Quaternion rotation) => Rotation = rotation;
+        internal void SetRotation(Quaternion rotation) => this.rotation = rotation;
 
-        internal void SetFrameIndex(int index) => FrameIndex = index;
+        internal void SetFrameIndex(int index) => frameIndex = index;
 
     }
 }

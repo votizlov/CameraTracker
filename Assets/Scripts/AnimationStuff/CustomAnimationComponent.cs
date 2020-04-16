@@ -17,7 +17,9 @@ namespace AnimationStuff
 
         [SerializeField] [Range(.1f, 2f)] private float speedMultiplier = 1f;
 
-        [SerializeField] private LinkedList<DataStructs.Keyframe> animationSequence;
+        [SerializeField] private List<DataStructs.Keyframe> referenceAnimationSequence;
+
+        private LinkedList<DataStructs.Keyframe> m_AnimationSequence;
 
         [SerializeField] private bool loop = false;
         
@@ -33,7 +35,7 @@ namespace AnimationStuff
 
         private Queue<DataStructs.Keyframe> m_QueuedKeyframes;
             
-
+        
 
         private float m_DeltaTime; 
 
@@ -41,14 +43,21 @@ namespace AnimationStuff
         private void Awake()
         {
             m_DeltaTime = 1f / (keyframesPerSecond * speedMultiplier);
-            m_QueuedKeyframes = new Queue<DataStructs.Keyframe>(animationSequence);
+            m_QueuedKeyframes = new Queue<DataStructs.Keyframe>(m_AnimationSequence);
+            m_AnimationSequence = new LinkedList<Keyframe>(referenceAnimationSequence);
+        }
+
+        private void SetAnimationSequence(List<DataStructs.Keyframe> reference)
+        {
+            referenceAnimationSequence = reference;
+            Awake();
         }
 
         private void AssignKeyframeData(Keyframe keyframe)
         {
             var obj = gameObject;
-            obj.transform.position = keyframe.Position;
-            obj.transform.rotation = keyframe.Rotation;
+            obj.transform.position = keyframe.position;
+            obj.transform.rotation = keyframe.rotation;
         }
 
 
@@ -57,7 +66,7 @@ namespace AnimationStuff
             
             onAnimationStartEvent?.Invoke();
             
-            var node = animationSequence.First as LinkedListNode<DataStructs.Keyframe>;
+            var node = m_AnimationSequence.First as LinkedListNode<DataStructs.Keyframe>;
 
             var nodeValue = node.Value;
 
@@ -91,7 +100,6 @@ namespace AnimationStuff
                 yield return new WaitForSeconds(m_DeltaTime);
             }
         }
-
 
         public void PlayAnimation()
         {

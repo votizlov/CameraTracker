@@ -23,8 +23,8 @@ namespace AnimationStuff
             
             for (int i = 1; i < keyframes.Count; i++)
             {
-                var curvX = AnimationCurve.Linear(previousCurve.keys[0].time, keyframes[i - 1].Position.x, i,
-                    keyframes[i].Position.x);
+                var curvX = AnimationCurve.Linear(previousCurve.keys[0].time, keyframes[i - 1].position.x, i,
+                    keyframes[i].position.x);
                 
                 animClip.SetCurve("", typeof(Transform), "localPosition.x", curvX);
 

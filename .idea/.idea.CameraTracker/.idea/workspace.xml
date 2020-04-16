@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f82fab-3812-4438-8feb-f21f0af4fbd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationConstructor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationConstructor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +28,8 @@
         <option value="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HelloARController.cs" />
         <option value="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/Wrappers/CameraApi.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationConstructor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" />
       </list>
     </option>
@@ -72,7 +74,7 @@
       <updated>1586950252013</updated>
       <workItem from="1586950319340" duration="4516000" />
       <workItem from="1586991322666" duration="3898000" />
-      <workItem from="1587068795596" duration="2474000" />
+      <workItem from="1587068795596" duration="2820000" />
     </task>
     <servers />
   </component>
