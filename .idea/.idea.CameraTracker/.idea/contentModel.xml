@@ -319,6 +319,23 @@
           <e p="DataStructs" t="Include">
             <e p="Keyframe.cs" t="Include" />
           </e>
+          <e p="Events" t="Include">
+            <e p="AbstractEvent.cs" t="Include" />
+            <e p="DelayDestroyedObject.cs" t="Include" />
+            <e p="DelayedEvent.cs" t="Include" />
+            <e p="DelayedEvents.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="EditorHeader.cs" t="Include" />
+              <e p="EventsEditor.cs" t="Include" />
+              <e p="FeedDelayedEventsEditor.cs" t="Include" />
+              <e p="SerializedPropertyArray.cs" t="Include" />
+            </e>
+            <e p="Event.cs" t="Include" />
+            <e p="Events.cs" t="Include" />
+            <e p="InvokeAction.cs" t="Include" />
+            <e p="TypeInitialization.cs" t="Include" />
+            <e p="TypeRunEvents.cs" t="Include" />
+          </e>
           <e p="HelloARController.cs" t="Include" />
         </e>
       </e>
