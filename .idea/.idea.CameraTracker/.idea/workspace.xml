@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01f82fab-3812-4438-8feb-f21f0af4fbd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreview.apk.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/NativeSession.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/NativeSession.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/Wrappers/CameraApi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/NativeSession.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationConstructor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HelloARController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -28,6 +25,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HelloARController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/Wrappers/CameraApi.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationConstructor.cs" />
       </list>
     </option>
   </component>
@@ -70,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586950252013</updated>
       <workItem from="1586950319340" duration="4516000" />
-      <workItem from="1586991322666" duration="213000" />
+      <workItem from="1586991322666" duration="3849000" />
     </task>
     <servers />
   </component>

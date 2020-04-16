@@ -312,6 +312,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AnimationStuff" t="Include">
+            <e p="AnimationConstructor.cs" t="Include" />
+          </e>
+          <e p="DataStructs" t="Include">
+            <e p="Keyframe.cs" t="Include" />
+          </e>
           <e p="HelloARController.cs" t="Include" />
         </e>
       </e>
