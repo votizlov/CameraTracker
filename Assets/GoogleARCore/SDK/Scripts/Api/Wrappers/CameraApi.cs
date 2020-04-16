@@ -32,11 +32,11 @@ namespace GoogleARCoreInternal
     using IOSImport = GoogleARCoreInternal.DllImportNoop;
 #endif
 
-    public class CameraApi
+    internal class CameraApi
     {
         private NativeSession m_NativeSession;
 
-        internal CameraApi(NativeSession nativeSession)
+        public CameraApi(NativeSession nativeSession)
         {
             m_NativeSession = nativeSession;
         }
