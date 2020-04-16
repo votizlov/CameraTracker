@@ -9,19 +9,15 @@ namespace DemoContent
 
         private void OnInstantiateSettings()
         {
-            GetComponent<MeshRenderer>().material.color = Color.green;
+            var position = transform.position;
+            GetComponent<MeshRenderer>().material.color = new Color(1 - position.y/(VisualizingManager.GetInstance().AvgHeight * 2), 
+                position.y/(VisualizingManager.GetInstance().AvgHeight * 2), 0, 1);
         }
         
         // Start is called before the first frame update
         void Start()
         {
-            
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
+            OnInstantiateSettings();
         }
     }
 }
