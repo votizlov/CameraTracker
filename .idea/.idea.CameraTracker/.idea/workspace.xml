@@ -15,6 +15,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/Wrappers/CameraApi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/NativeSession.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationConstructor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,6 +29,7 @@
         <option value="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/Wrappers/CameraApi.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationConstructor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" />
       </list>
     </option>
   </component>
@@ -70,7 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586950252013</updated>
       <workItem from="1586950319340" duration="4516000" />
-      <workItem from="1586991322666" duration="3849000" />
+      <workItem from="1586991322666" duration="3898000" />
+      <workItem from="1587068795596" duration="1959000" />
     </task>
     <servers />
   </component>
