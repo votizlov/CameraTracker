@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f82fab-3812-4438-8feb-f21f0af4fbd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <updated>1586950252013</updated>
       <workItem from="1586950319340" duration="4516000" />
       <workItem from="1586991322666" duration="3898000" />
-      <workItem from="1587068795596" duration="1959000" />
+      <workItem from="1587068795596" duration="2474000" />
     </task>
     <servers />
   </component>

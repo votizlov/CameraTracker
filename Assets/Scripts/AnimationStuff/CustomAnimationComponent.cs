@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DataStructs;
+using UnityEngine.Events;
 using Keyframe = DataStructs.Keyframe;
 
 
@@ -23,6 +24,10 @@ namespace AnimationStuff
         [Header("Animation Visualising Settings")]
 
         [SerializeField] private Color trailEffectColor = Color.green;
+        
+        [SerializeField] private UnityEvent onAnimationStartEvent;
+
+        [SerializeField] private UnityEvent onAnimationEndEvent;
 
         private IEnumerator PlayableRoutine => loop ? PlayLoopedKeyframeSequence() : PlayKeyframeSequence() ;
 
@@ -49,6 +54,9 @@ namespace AnimationStuff
 
         private IEnumerator PlayKeyframeSequence()
         {
+            
+            onAnimationStartEvent?.Invoke();
+            
             var node = animationSequence.First as LinkedListNode<DataStructs.Keyframe>;
 
             var nodeValue = node.Value;
@@ -64,11 +72,17 @@ namespace AnimationStuff
                 
                 yield return new WaitForSeconds(m_DeltaTime);
             }
+            
+            onAnimationEndEvent?.Invoke();
+            
             Debug.Log("Sequence ended");
         }
 
         private IEnumerator PlayLoopedKeyframeSequence()
         {
+            
+            onAnimationStartEvent?.Invoke();
+            
             while (true)
             {
                 var kFrame = m_QueuedKeyframes.Dequeue();
