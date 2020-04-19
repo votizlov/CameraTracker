@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿#if UNITY_EDITOR
+
+using System.IO;
 using UnityEditor.Formats.Fbx.Exporter;
 using UnityEngine;
 
@@ -30,3 +32,4 @@ namespace AnimationStuff
 
     }
 }
+#endif

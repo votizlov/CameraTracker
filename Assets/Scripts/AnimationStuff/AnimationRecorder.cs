@@ -1,4 +1,6 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+
+using System;
 using System.Collections;
 using UnityEditor.Animations;
 using UnityEngine;
@@ -49,3 +51,4 @@ namespace AnimationStuff
         }
     }
 }
+#endif

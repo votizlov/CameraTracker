@@ -43,9 +43,11 @@ namespace AnimationStuff
         private void Awake()
         {
             m_DeltaTime = 1f / (keyframesPerSecond * speedMultiplier);
-            m_QueuedKeyframes = new Queue<DataStructs.Keyframe>(m_AnimationSequence);
+            m_QueuedKeyframes = new Queue<DataStructs.Keyframe>(KeyframesContainer.GetInstance.keyframes);
             m_AnimationSequence = new LinkedList<Keyframe>(referenceAnimationSequence);
         }
+
+        public void SetDefaultAnimationSequence() => SetAnimationSequence(KeyframesContainer.GetInstance.keyframes);
 
         private void SetAnimationSequence(List<DataStructs.Keyframe> reference)
         {

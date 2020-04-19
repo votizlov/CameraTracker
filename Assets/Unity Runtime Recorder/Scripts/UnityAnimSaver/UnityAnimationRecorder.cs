@@ -76,14 +76,6 @@ public class UnityAnimationRecorder : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-		if (Input.GetKeyDown (startRecordKey)) {
-			StartRecording ();
-		}
-
-		if (Input.GetKeyDown (stopRecordKey)) {
-			StopRecording ();
-		}
 
 		if (isStart) {
 			nowTime += Time.deltaTime;
