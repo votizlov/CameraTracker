@@ -3,18 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="01f82fab-3812-4438-8feb-f21f0af4fbd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DemoFloorMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DemoFloorMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/ARCore Device.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/ARCore Device.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraAnimationDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraAnimationDemo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HelloAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HelloAR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationRecorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationRecorder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Unity Runtime Recorder/Scripts/UnityAnimSaver/UnityAnimationRecorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Unity Runtime Recorder/Scripts/UnityAnimSaver/UnityAnimationRecorder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FileWorks.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,32 +22,32 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/DelayedEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DemoContent/VisualizingManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/InvokeAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ARCoreBackgroundRenderer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/DelayDestroyedObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersistantClasses/KeyframesContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/KeyframesToAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HelloARController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Editor/EventsEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unity Runtime Recorder/Scripts/UnityAnimSaver/UnityAnimationRecorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/ARCore Device.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Editor/FeedDelayedEventsEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DemoContent/CameraRotationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ARCoreBackgroundRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Editor/EventsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Editor/EditorHeader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unity Runtime Recorder/Scripts/UnityAnimSaver/UnityAnimationRecorder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationRecorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/TypeRunEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DemoContent/PathDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersistantClasses/KeyframesContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/TypeInitialization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/InvokeAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Events.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DemoContent/PathDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DemoContent/VisualizingManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationRecorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/DelayedEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/DelayedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationConstructor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DemoContent/VisualizePointComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/TypeInitialization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/DelayDestroyedObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/AbstractEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/DelayedEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,12 +76,14 @@
         <option value="$PROJECT_DIR$/Assets/Unity Runtime Recorder/Scripts/FbxExporter/FbxExporter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PersistantClasses/KeyframesContainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Unity Runtime Recorder/Scripts/UnityAnimSaver/UnityAnimationRecorder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationRecorder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DemoContent/CameraRotationController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/KeyframesToAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" />
       </list>
     </option>
   </component>
@@ -132,6 +130,8 @@
       <workItem from="1587068795596" duration="7953000" />
       <workItem from="1587208870959" duration="8849000" />
       <workItem from="1587299504358" duration="9140000" />
+      <workItem from="1587322428339" duration="364000" />
+      <workItem from="1587384033752" duration="8272000" />
     </task>
     <servers />
   </component>
@@ -140,6 +140,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1587077817260">
       <screen x="0" y="0" width="1920" height="1040" />

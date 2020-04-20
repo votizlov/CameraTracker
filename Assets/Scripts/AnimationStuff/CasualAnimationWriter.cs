@@ -10,7 +10,7 @@ namespace AnimationStuff
     public class CasualAnimationWriter : MonoBehaviour
     {
 
-        private float _deltaTime = 0f;
+        private float _deltaTime = 0.033333333f;
 
         private IEnumerator _routine;
         
