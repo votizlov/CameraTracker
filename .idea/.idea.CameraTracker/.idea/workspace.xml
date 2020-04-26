@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f82fab-3812-4438-8feb-f21f0af4fbd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/First Person Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/First Person Camera.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/First Person Camera.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/First Person Camera.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraAlpha.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraAlpha.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Animation 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Animation 1.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraAnimationDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraAnimationDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HelloAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HelloAR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/EditorAnimRecorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/EditorAnimRecorder.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +134,7 @@
       <workItem from="1587384033752" duration="8272000" />
       <workItem from="1587921006015" duration="2549000" />
       <workItem from="1587935653998" duration="2323000" />
+      <workItem from="1587938758036" duration="348000" />
     </task>
     <servers />
   </component>

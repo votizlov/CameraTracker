@@ -1727,9 +1727,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 7400000, guid: 7024bbc963afd6b4692c1860f560b955, type: 2}
-  exporter: {fileID: 1828474057}
-  toExportFbx: 1
-  objToExport: {fileID: 8296172667534259651}
 --- !u!4 &8318400491793047980
 Transform:
   m_ObjectHideFlags: 0
