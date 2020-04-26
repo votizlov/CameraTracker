@@ -4,13 +4,11 @@
     <list default="true" id="01f82fab-3812-4438-8feb-f21f0af4fbd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/ARCore Device.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/ARCore Device.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/First Person Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/First Person Camera.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/First Person Camera.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/First Person Camera.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CameraAnimationDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraAnimationDemo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HelloAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HelloAR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FileWorks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CustomAnimationComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/KeyframesToAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HelloARController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/CameraAnimationDemo.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unity Runtime Recorder/Scripts/UnityAnimSaver/UnityAnimationRecorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/ARCore Device.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStructs/Keyframe.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CasualAnimationWriter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Events.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/EditorAnimRecorder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DemoContent/PathDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DemoContent/VisualizingManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationRecorder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,6 +84,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/AnimationExporter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/KeyframesToAnim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/CameraAnimationExporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStuff/EditorAnimRecorder.cs" />
       </list>
     </option>
   </component>
@@ -132,6 +133,8 @@
       <workItem from="1587299504358" duration="9140000" />
       <workItem from="1587322428339" duration="364000" />
       <workItem from="1587384033752" duration="8272000" />
+      <workItem from="1587921006015" duration="2549000" />
+      <workItem from="1587935653998" duration="2323000" />
     </task>
     <servers />
   </component>
@@ -145,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -10,8 +10,9 @@ namespace AnimationStuff
 {
     public class CameraAnimationExporter : MonoBehaviour
     {
-        public Camera cameraToExport;
+        public GameObject cameraToExport;
         public String animName;
+        public AnimationClip clip;
 
         public void AnimToFbx()
         {
@@ -20,7 +21,7 @@ namespace AnimationStuff
                 AssetDatabase.LoadAssetAtPath<AnimationClip>("Assets/" + animName + ".anim");
             ExportGameObjects();
         }
-        
+
         public void AnimToFbx(String animName)
         {
             this.animName = animName;
@@ -36,6 +37,12 @@ namespace AnimationStuff
             
             // ModelExporter.ExportObject can be used instead of 
             // ModelExporter.ExportObjects to export a single game object
+        }
+
+        public void exportObject(GameObject obj)
+        {
+            cameraToExport = obj;
+            ExportGameObjects();
         }
 
     }

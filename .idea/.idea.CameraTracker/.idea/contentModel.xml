@@ -318,6 +318,7 @@
             <e p="CameraAnimationExporter.cs" t="Include" />
             <e p="CasualAnimationWriter.cs" t="Include" />
             <e p="CustomAnimationComponent.cs" t="Include" />
+            <e p="EditorAnimRecorder.cs" t="Include" />
             <e p="KeyframesToAnim.cs" t="Include" />
           </e>
           <e p="DataStructs" t="Include">

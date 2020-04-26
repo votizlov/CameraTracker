@@ -245,17 +245,21 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 451212811, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 33c0af8b410a52043b09621dc9379c7d, type: 3}
     - target: {fileID: 1345850114, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 107105521}
+      objectReference: {fileID: 1337686261}
     - target: {fileID: 1345850114, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: CreateAnim
+      value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 1345850114, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1654606496, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

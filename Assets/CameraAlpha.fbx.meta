@@ -1,8 +1,14 @@
 fileFormatVersion: 2
-guid: 33c0af8b410a52043b09621dc9379c7d
+guid: 5bb19a7ca72c2f7408699a516361a849
 ModelImporter:
   serializedVersion: 19300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -5921572719078620105
+    second: New Animation 1
+  - first:
+      74: 7307958076663688156
+    second: CameraHandler
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -89,7 +95,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
